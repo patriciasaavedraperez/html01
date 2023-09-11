@@ -1,0 +1,30 @@
+
+body{
+	width: 900px;
+	margin:auto;
+	border:black solid 1px;
+}
+
+
+
+h1{
+	background-color: pink;
+}
+
+p{
+	color:blue;
+
+}
+
+
+/*div{border:blue solid 1px;
+}*/
+
+/*sistemas de columnas por % */
+
+.col-12, .cold-6, .col-4, .col-3{float: left;}
+.col-12{width:100%;}
+.col-6{width:50%;
+float: left;}
+.col-4{width:33,3333%;}
+.col-3{width:25%;}
